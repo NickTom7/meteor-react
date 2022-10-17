@@ -9,6 +9,7 @@ export const App = () => {
       TasksCollection.find({}, { sort: { createdAt: -1 } }).fetch()
   );
 
+  
   return (
       <div>
         <h1>Welcome to Meteor!</h1>
